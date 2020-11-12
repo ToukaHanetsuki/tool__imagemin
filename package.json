@@ -1,0 +1,20 @@
+{
+  "name": "tool__imagemin",
+  "version": "1.0.0",
+  "description": "解像度を維持して圧縮するツール",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "watch": "gulp watch"
+  },
+  "keywords": [],
+  "author": "touka hanetsuki",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1"
+  }
+}
